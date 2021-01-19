@@ -36,19 +36,19 @@ This are files for the Multi Channel Grove Gas Sensor or mics_6814 sensor
         unit_of_measurement: 'µg/m³'
       - name: "C3H8 Sensor"
         accuracy_decimals: 2
-        unit_of_measurement: '%'
+        unit_of_measurement: 'ppm'
       - name: "C4H10 Sensor"
         accuracy_decimals: 2
-        unit_of_measurement: '%'
+        unit_of_measurement: 'ppm'
       - name: "CH4 Sensor"
         accuracy_decimals: 2
-        unit_of_measurement: '%'
+        unit_of_measurement: 'ppm'
       - name: "H2 Sensor"
         accuracy_decimals: 2
-        unit_of_measurement: '%'
+        unit_of_measurement: 'ppm'
       - name: "C2H5OH Sensor"
         accuracy_decimals: 2
-        unit_of_measurement: '%'
+        unit_of_measurement: 'ppm'
 ```
 
 If you get an error saying the `Architecture not matched`. In the folder where your binaries are for that sensor in the `src` directory modify `MutichannelGasSensor.h` by commenting that line along with appending `#define _SERIAL Serial` 
